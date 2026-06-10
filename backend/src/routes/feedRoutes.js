@@ -1,0 +1,11 @@
+const router = require("express").Router();
+const auth = require("../middleware/authMiddleware");
+const controller = require("../controllers/feedController");
+router.use(auth);
+router.get("/items", controller.listItems);
+router.post("/items", controller.createItem);
+router.put("/items/:id", controller.updateItem);
+router.delete("/items/:id", controller.removeItem);
+router.get("/transactions", controller.listTransactions);
+router.post("/transactions", controller.createTransaction);
+module.exports = router;

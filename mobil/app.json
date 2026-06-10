@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Akilli Ciftlik Mobil",
+    "slug": "akilli-ciftlik-mobil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
