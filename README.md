@@ -1,4 +1,4 @@
-# Akıllı Çiftlik v2
+# Akıllı Çiftlik 
 
 Bu paket teslim odaklı, çok modüllü bir **Akıllı Çiftlik Yönetim Sistemi** örneğidir.
 
